@@ -21,7 +21,7 @@ html { background-color: #3f5e6f; }
 /* --notionGeneral/hidePageHeaders */
 
 .super-content {
-  padding: 120px !important;
+  padding: 320px !important;
   display: flex;
   justify-content: center;
   background-color: #3f5e6f;
