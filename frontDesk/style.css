@@ -175,38 +175,53 @@ h3 .notion-semantic-string {
 /* --notionComponents/database */
 
 /* notionComponents/databaseGalleryView */
-.notion-collection-gallery {
-  border: none !important;
-  background-color: #3f5e6f;
+.notion-collection-card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.15) !important;
 }
 
-.notion-collection-card { background-color: transparent !important; }
 .notion-collection-card:hover {
-  background-color: transparent !important;
-}
-
-.notion-collection-card__content {
-  background-color: rgba(0, 0, 0, 0.15);
-}
-
-.notion-collection-card__content .notion-semantic-string {
-  opacity: 0.7;
-}
-
-.notion-property__title {
-  background-color: rgba(0, 0, 0, 0.15);
-}
-
-.notion-property__title__icon-wrapper {
-  display: none !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 .notion-collection-card:hover .notion-property__title {
-  background-color: rgba(0, 0, 0, 0.3);
+    background-color: transparent !important;
 }
 
 .notion-collection-card:hover .notion-collection-card__content {
-  background-color: rgba(0, 0, 0, 0.3);
+    background-color: transparent !important;
+}
+
+.notion-collection-card__property-list {
+  order: 1;
+}
+
+.notion-collection-card__content {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  order: 1;
+}
+
+.notion-collection-card__content .notion-semantic-string {
+  font-size: 16px !important;
+  opacity: 0.9 !important;
+}
+
+.notion-collection-card__cover {
+  border-bottom: none !important;
+}
+
+.notion-property__title {
+  background-color: unset;
+  order: 2;
+  padding-top: 0 !important;
+}
+
+.notion-property__title .notion-semantic-string {
+  color: white !important;
+  font-size: 18px !important;
 }
 /* --notionComponents/databaseGalleryView */
 
@@ -258,7 +273,7 @@ h3 .notion-semantic-string {
 }
 /* --notionComponents/tableOfContents */
 
-/* notionComponents/breadcrum */
+/* notionComponents/breadcrumb */
 .notion-breadcrumb {
     background-color: transparent;
 }
@@ -266,7 +281,7 @@ h3 .notion-semantic-string {
 .notion-breadcrumb div {
     font-size: 18px;
 }
-/* --notionComponents/breadcrum */
+/* --notionComponents/breadcrumb */
 
 /* notionComponents/bookmark */
 .notion-bookmark { border: 1px solid #2f4653; }
