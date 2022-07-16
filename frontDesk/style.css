@@ -54,7 +54,7 @@ h3 .notion-semantic-string {
 }
 
 .color-gray {
-  color: #ffffffb8;
+  color: #ffffffb8 !important;
 }
 
 @media (max-width: 768px) {
