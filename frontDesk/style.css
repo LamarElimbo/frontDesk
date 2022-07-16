@@ -175,6 +175,7 @@ h3 .notion-semantic-string {
 /* --notionComponents/database */
 
 /* notionComponents/databaseGalleryView */
+.notion-collection-gallery { border: none !important; }
 .notion-collection-card {
   display: flex;
   flex-direction: column;
