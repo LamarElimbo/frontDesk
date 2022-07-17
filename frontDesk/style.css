@@ -62,7 +62,7 @@ h3 .notion-semantic-string {
 }
 
 .notion-divider {
-  border-bottom: #ffffffb8 !important;
+  border-bottom: 1px solid #ffffff40 !important;
 }
 
 @media (max-width: 768px) {
@@ -241,7 +241,7 @@ h3 .notion-semantic-string {
 /* --notionComponents/databaseBoardView */
 
 /* notionComponents/databaseListView */
-.notion-collection-list { border: none; }
+.notion-collection-list { border: none !important; }
 
 .notion-collection-list__item .notion-property {
   background-color: transparent;
