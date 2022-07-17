@@ -53,8 +53,16 @@ h3 .notion-semantic-string {
   font-size: 22px !important;
 }
 
+.notion-page__title .notion-semantic-string {
+    border-bottom: 1px solid #ffffffb8 !important;
+}
+
 .color-gray {
   color: #ffffffb8 !important;
+}
+
+.notion-divider {
+  border-bottom: #ffffffb8 !important;
 }
 
 @media (max-width: 768px) {
