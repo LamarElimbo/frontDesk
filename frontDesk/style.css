@@ -96,6 +96,12 @@ h3 .notion-semantic-string {
   }
 }
 
+@media (max-width: 425px) {  
+  #block-fcb2c40b78404a919ca36613c7f17e96 {
+    flex: 1 1 100%;
+  }
+}
+
 .super-content > article[id*="ations"]:first-child .notion-column-list:first-child {
   position: fixed;
   z-index: 50;
