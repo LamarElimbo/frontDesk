@@ -69,8 +69,20 @@ h3 .notion-semantic-string {
   background: none !important;
 }
 
+.notion-breadcrumb__item:hover {
+  background-color: #2f4653 !important;
+}
+
+.notion-table-of-contents__item:hover {
+  background-color: #2f4653 !important;
+}
+
 .notion-image {
   margin: 0 !important;
+}
+
+.bg-gray {
+  background-color: #2f4653 !important;
 }
 
 @media (max-width: 768px) {
