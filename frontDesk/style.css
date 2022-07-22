@@ -58,11 +58,19 @@ h3 .notion-semantic-string {
 }
 
 .color-gray {
-  color: #ffffffb8 !important;
+  background-color: #ffffffb8 !important;
 }
 
 .notion-divider {
   border-bottom: 1px solid #ffffff40 !important;
+}
+
+.notion-breadcrumb {
+  background: none !important;
+}
+
+.notion-image {
+  margin: 0 !important;
 }
 
 @media (max-width: 768px) {
