@@ -11,6 +11,21 @@
 /* notionGeneral */
 html { background-color: #3f5e6f; }
 
+/* scroll bar */
+html ::-webkit-scrollbar {
+  width: 0 !important;
+  background: initial !important;
+  border: none !important;
+}
+
+html ::-webkit-scrollbar-thumb {
+    background-color: unset !important;
+    border: none !important;
+    border-radius: unset !important;
+    background-clip: unset !important;
+}
+/* --scroll bar */
+
 /* notionGeneral/hidePageHeaders */
 .notion-navbar,
 .notion-page__icon,
@@ -138,7 +153,7 @@ h3 .notion-semantic-string {
   flex: 1;
 }
 
-.super-content > article[id*="ations"]:first-child .notion-column-list:first-child .notion-column > div:not(.bg-green-light) {
+.super-content > article[id*="ations"]:first-child .notion-column-list:first-child .notion-column > div {
   border: 1px solid #213139;
   background-color: #2f4653 !important;
 }
