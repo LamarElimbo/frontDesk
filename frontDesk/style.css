@@ -123,6 +123,7 @@ h3 .notion-semantic-string {
 /* topBars/mainTopBars/tabsTopBar/ */
 .super-content > article[id*="ations"]:first-child .notion-column-list:first-child .notion-semantic-string {
   font-size: 16px;
+  border-bottom: none !important;
 }
 
 @media (max-width: 768px) {
