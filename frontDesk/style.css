@@ -164,6 +164,8 @@ h3 .notion-semantic-string {
 
 .super-content > article[id*="ations"]:first-child .notion-column-list:first-child .notion-column .bg-green-light {
   background-color: #3f5e6f;
+  border: 1px solid #213139;
+  box-shadow: inset 0px 0px 10px 2px rgb(0 0 0 / 25%)
 }
 
 .super-content > article[id*="ations"]:first-child .notion-column-list:first-child .notion-column .bg-green-light div:hover {
